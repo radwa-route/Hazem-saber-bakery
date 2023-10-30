@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+.clearfix{
+    clear: both;
+}
+.home{
+    background-color: tan;
+    background-image: url('./Bakery images/images/drew-coffman-1872.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 110vh;
+}
+
+
+
+.home img{
+    width: 23%;
+    float: left;
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+.home .nav-links{
+    width: 50%;
+    float: right;
+}
+
+.home .nav-links ul{
+    list-style-type: none;
+
+}
+
+.home .nav-links a{
+    color: white;
+    text-decoration: none;
+}
+ 
+.home .nav-links li{
+    width: 150px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 25px;
+    margin-right: -150px;
+    text-transform: capitalize;
+}
+
+
+.home .home-content{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+    
+   
+}
+.home .home-content h1{
+    font-family: serif;
+    font-size: 76px;
+    padding-top: 0;
+}
+
+.home .home-content p{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.home .home-content button{
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin-right: 5px;
+    color: white;
+}
+
+.home .home-content .bg-tan{
+    background-color: #8e7754;
+}
+
+.home .home-content .bg-trans{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.who{
+    background-color: #8e7754;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    
+    
+}
+
+.who .who-img img{
+    
+    width: 47%;
+    height: 100%;
+    padding-left: 100px;
+    float: left;
+    display: block;
+}
+.who .who-text{
+    width: 47%;
+    float: right;
+    display: block;
+    padding-top: 45px;
+   
+    font-style: italic;
+    
+}
+
+.who .who-text h2{ 
+    font-size:32px ;
+}
+
+.who .who-text p{
+    color: #686868;
+    font-size: 17px;
+    display: block;
+    
+   
+    
+}
+
+
+ .who .who-icons{
+    width: 3%;
+    display: inline-block;
+    height: 280px;
+    
+    margin-left: 90px;
+}
+
+.who .who-icons img{
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid #dedede;
+    display: block;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    
+    
+
+    
+}
+
+.who .who-summary {
+    
+    display: inline-block ;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 30px;
+    float: right;
+    margin-right: 200px;
+    
+    
+    
+    
+    
+    
+}
+.who .who-summary p{
+    color: #686868;
+    font-size: 17px;
+     display: block;
+     align-items: center;
+     padding-top: 12px;
+     
+     margin-bottom: 30px;
+     font-style: italic;
+     
+     
+} 
+
+
+
+.our-location{
+    background-color: #f8f8f8;
+    width: 100%;
+    
+}
+ .location-text{
+    width:40%;
+    
+    margin-left: 120px;
+    margin-top: 90px;
+    display: inline-block;
+    position: center;
+    
+    vertical-align: middle;
+}
+  .location-text h2{
+    
+    color: #303030;
+    font-size: 32px;
+    font-style: oblique;
+   
+   
+
+} 
+
+ .location-text p{
+    color: #686868;
+    font-size: 17px;
+    font-style: oblique;
+    
+    
+    
+} 
+
+
+ .location-text  img{
+    width: 90%;
+    
+
+}
+
+.our-baking{
+    padding-top: 80px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    
+
+}
+.our-baking h2{
+    font-style: oblique;
+    color: #303030;
+    font-size: 30px;
+}
+
+.our-baking p{
+    font-style: oblique;
+    color: #686868;
+    font-size: 17px;
+}
+.baking-img{
+    width: 33.333333%;
+    padding-top: 40px;
+   
+    margin: auto;
+   
+    
+    float: left;
+}
+
+
+.baking-img img{
+    width: 75%;
+    
+    
+     
+}
+
+.baking-img h3{
+    color: #303030;
+    font-style: oblique;
+    font-size: 22px;
+}
+
+.baking-img p{
+    color: #686868;
+    font-style: oblique;
+    font-size: 17px;
+}
+
+
+.contact{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+
+.info{
+    
+    width: 40%;
+    padding-top: 60px;
+    margin-left: 120px;
+    float:left;
+    
+    
+}
+
+.info-text{
+    width: 50%;
+    text-align: left ;
+    
+}
+.info-icon{
+    float: left;
+    text-align: left;
+    
+}
+.info-icon li{
+    vertical-align: middle;
+    display: list-item;
+}
+
+.info-icon img{
+    width: 6%;
+    margin: 10px;
+    background-color: #8e7754;
+    border-radius: 50px;
+    border:   #8e7754;
+    
+    
+}
+.info-icon ul{
+    list-style-type: none;
+}
+
+ a{
+    text-decoration: none;
+}
+
+.about{
+    width: 100%;
+    background-color: #403d38;
+    
+}
+.about-info h3{
+    color: white;
+    font-style: oblique;
+}
+
+.about-info p ,a{
+     color: #969696;
+}
+.about-info p{
+    font-style: oblique;
+}
+.about-info a{
+    display: block;
+    font-style: oblique;
+    padding-top: 20px;
+}
+.about-info{
+    width: 22%;
+    float: left;
+}
+.about-info img{
+    width: 8%;
+    float: left;
+}
+.info-final{
+    background-image: url('./Bakery images/images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .copy-write{
+    background-color : #353330 ;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+ }
+ .copy-write .iconn{
+    width: 2%;
+    border-radius: 50px;
+    background-color: #686868;
+    margin-left: 8px;
+ }
+
